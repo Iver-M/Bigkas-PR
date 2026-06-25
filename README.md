@@ -5,7 +5,13 @@
 
   ## Running the code
 
-  Run `npm i` to install the dependencies.
+  Run `corepack pnpm install` to install the dependencies.
 
-  Run `npm run dev` to start the development server.
+  If pnpm asks you to approve build scripts, run `corepack pnpm approve-builds --all` once.
+
+  Run `corepack pnpm dev` to start the development server.
+
+  Run `corepack pnpm build` to create a production build and verify the app compiles.
+
+  This repo does not currently include automated test files, so the build command is the main validation step.
   
